@@ -1,8 +1,0 @@
-2025-11-30T02:37:12.292Z info Starting tosu
-2025-11-30T02:37:12.295Z debug [config] No old config found. Skipping migration..
-2025-11-30T02:37:12.305Z debug [config] Started config watcher..
-2025-11-30T02:37:12.306Z info [updater],Checking updates
-2025-11-30T02:37:13.128Z info Searching for osu!
-2025-11-30T02:37:13.123Z info [updater],You're using latest version v4.15.3
-2025-11-30T02:37:13.138Z info [server],Dashboard started on http://127.0.0.1:24050
-2025-11-30T02:37:14.162Z debug [ws],connected,90c49fc4-c58e
