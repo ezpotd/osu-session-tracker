@@ -1,0 +1,44 @@
+2025-11-29T03:56:56.926Z info Starting tosu
+2025-11-29T03:56:56.930Z debug [config] No old config found. Skipping migration..
+2025-11-29T03:56:56.931Z debug [config] Started config watcher..
+2025-11-29T03:56:56.932Z info [updater],Checking updates
+2025-11-29T03:56:57.579Z info [updater],You're using latest version v4.15.3
+2025-11-29T03:56:57.579Z info Searching for osu!
+2025-11-29T03:56:57.588Z debug stable,10244,gameplay init (undefined - undefined)
+2025-11-29T03:56:57.588Z debug stable,10244,resultScreen init
+2025-11-29T03:56:57.589Z info [10244 0] Running memory chimera...
+2025-11-29T03:57:04.749Z debug stable,10244,checkIsBasesValid,baseAddr: 1DF3778F
+2025-11-29T03:57:04.750Z debug stable,10244,checkIsBasesValid,settingsClassAddr: D1AB168
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,configurationAddr: 77408E5
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,bindingsAddr: 77488A5
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,rulesetsAddr: 1DDAB89F
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,statusPtr: 1DDAB814
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,menuModsPtr: 1ABD6A68
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,getAudioLengthPtr: 1E1692E7
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,userProfilePtr: 1ABD692F
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,rawLoginStatusPtr: 1E1117DD
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,spectatingUserPtr: 1E166474
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,gameTimePtr: 1E17D820
+2025-11-29T03:57:04.753Z info stable,10244,All patterns resolved within 7162.99ms
+2025-11-29T03:57:04.754Z debug stable,10244,regularDataLoop
+2025-11-29T03:57:04.751Z debug stable,10244,checkIsBasesValid,canRunSlowlyAddr: 1E1613F0
+2025-11-29T03:57:04.781Z time [stable],10244,beatmapPP.updateMapMetadata,[15.98ms] Spend on opening beatmap
+2025-11-29T03:57:04.834Z time [stable],10244,beatmapPP.updateMapMetadata,[52.47ms] Spend on attributes & strains calculation
+2025-11-29T03:57:04.866Z time [stable],10244,beatmapPP.updateMapMetadata,[32.05ms] Spend on parsing beatmap
+2025-11-29T03:57:04.881Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-11-29T03:57:04.750Z debug stable,10244,checkIsBasesValid,playTimeAddr: 1E16EFFA
+2025-11-29T03:57:04.750Z debug stable,10244,checkIsBasesValid,chatCheckerPtr: 1E167C1A
+2025-11-29T03:57:04.750Z debug stable,10244,checkIsBasesValid,skinDataAddr: 1DDAF82C
+2025-11-29T03:57:31.427Z time httpServer.request,7.07ms,GET,200,text/html; charset=utf-8,/
+2025-11-29T03:57:31.470Z time httpServer.request,2.79ms,GET,200,text/css; charset=utf-8,/assets/icons/style.css
+2025-11-29T03:57:31.472Z time httpServer.request,5.44ms,GET,200,text/css; charset=utf-8,/assets/homepage.min.css
+2025-11-29T03:57:31.481Z time httpServer.request,7.61ms,GET,200,text/css; charset=utf-8,/assets/fonts/style.css
+2025-11-29T03:57:31.490Z time httpServer.request,13.94ms,GET,200,text/javascript; charset=utf-8,/assets/vue.js
+2025-11-29T03:57:31.492Z time httpServer.request,8.67ms,GET,200,text/javascript; charset=utf-8,/assets/homepage.js
+2025-11-29T03:57:31.675Z time httpServer.request,4.91ms,GET,200,application/font-ttf; charset=utf-8,/assets/icons/fonts/icomoon.ttf?yo4fz7
+2025-11-29T03:57:31.686Z time httpServer.request,16.63ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Bold.ttf
+2025-11-29T03:57:31.689Z time httpServer.request,11.36ms,GET,200,application/font-ttf; charset=utf-8,/assets/fonts/Roboto-Regular.ttf
+2025-11-29T03:57:31.725Z time httpServer.request,1.59ms,GET,200,image/vnd.microsoft.icon; charset=utf-8,/assets/favicon.ico
+2025-11-29T03:57:53.134Z time [stable],10244,beatmapPP.updateMapMetadata,[36.01ms] Spend on opening beatmap
+2025-11-29T03:57:53.243Z time [stable],10244,beatmapPP.updateMapMetadata,[108.85ms] Spend on attributes & strains calculation
+2025-11-29T03:57:53.394Z time [stable],10244,beatmapPP.updateMapMetadata,[151.07ms] Spend on parsing beatmap

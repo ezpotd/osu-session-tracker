@@ -1,0 +1,9 @@
+2025-11-30T03:05:17.916Z info Starting tosu
+2025-11-30T03:05:17.921Z debug [config] No old config found. Skipping migration..
+2025-11-30T03:05:17.923Z debug [config] Started config watcher..
+2025-11-30T03:05:17.925Z info [updater],Checking updates
+2025-11-30T03:05:28.507Z error [updater],checkUpdates,fetch failed
+2025-11-30T03:05:28.508Z debug [updater],checkUpdates,TypeError: fetch failed
+2025-11-30T03:05:28.515Z info Searching for osu!
+2025-11-30T03:05:28.538Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-11-30T03:05:29.772Z debug [ws],connected,aa6f83e6-04b9

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>osu! Session Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="title-block">
+                <div class="flex-row">
+                    <img src="icon.ico" class="app-logo" onerror="this.style.display='none'"> 
+                    <h1>SESSION TRACKER</h1>
+                </div>
+                <div id="status-badge" class="badge">Connecting...</div>
+            </div>
+            <div class="nav-tabs">
+                <button id="btn-plays" class="nav-btn active">Recent Plays</button>
+                <button id="btn-stats" class="nav-btn">Map Statistics</button>
+            </div>
+        </header>
+
+        <!-- Recent Plays Table -->
+        <div id="view-plays" class="view-section">
+            <div class="controls">
+                <input type="text" id="search-input" placeholder="Search map, artist, or mapper...">
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col-img">Map</th>
+                            <th data-table="plays" data-sort="startTime">Date ⬍</th>
+                            <th data-table="plays" data-sort="mapTitle">Title ⬍</th>
+                            <th data-table="plays" data-sort="mapper">Mapper ⬍</th>
+                            <th data-table="plays" data-sort="mods">Mods ⬍</th>
+                            <th data-table="plays" data-sort="ar">AR</th>
+                            <th data-table="plays" data-sort="cs">CS</th>
+                            <th data-table="plays" data-sort="od">OD</th>
+                            <th data-table="plays" data-sort="status">Status ⬍</th>
+                            <th data-table="plays" data-sort="rank">Rank ⬍</th>
+                            <th data-table="plays" data-sort="pp">PP ⬍</th>
+                            <th data-table="plays" data-sort="accuracy">Acc % ⬍</th>
+                            <th data-table="plays" data-sort="maxCombo">Combo ⬍</th>
+                            <th data-table="plays" data-sort="durationSeconds">Time ⬍</th>
+                            <th data-table="plays" data-sort="ur">UR ⬍</th>
+                            <th>300</th>
+                            <th>100</th>
+                            <th>50</th>
+                            <th>Miss</th>
+                            <th>SB</th>
+                            <th></th> 
+                        </tr>
+                    </thead>
+                    <tbody id="plays-body"></tbody>
+                </table>
+            </div>
+            <!-- Plays Pagination -->
+            <div id="pagination-plays" class="pagination-bar">
+                <button id="btn-prev-plays">Previous</button>
+                <span id="page-info-plays" class="page-info">Page 1 of 1</span>
+                <button id="btn-next-plays">Next</button>
+            </div>
+        </div>
+
+        <!-- Map Statistics Table -->
+        <div id="view-stats" class="view-section" style="display: none;">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col-img">Map</th>
+                            <th data-table="stats" data-sort="title">Map Name ⬍</th>
+                            <th data-table="stats" data-sort="diff">Difficulty ⬍</th>
+                            <th data-table="stats" data-sort="plays">Total Plays ⬍</th>
+                            <th data-table="stats" data-sort="passRate">Pass Rate ⬍</th>
+                            <th data-table="stats" data-sort="maxCombo">Best Combo ⬍</th>
+                            <th data-table="stats" data-sort="maxPP">Max PP ⬍</th>
+                            <th data-table="stats" data-sort="maxAcc">Max Acc ⬍</th>
+                            <th data-table="stats" data-sort="totalSeconds">Total Time ⬍</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stats-body"></tbody>
+                </table>
+            </div>
+            <!-- Stats Pagination (NEW) -->
+            <div id="pagination-stats" class="pagination-bar">
+                <button id="btn-prev-stats">Previous</button>
+                <span id="page-info-stats" class="page-info">Page 1 of 1</span>
+                <button id="btn-next-stats">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

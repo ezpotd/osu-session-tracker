@@ -1,0 +1,34 @@
+2025-11-29T23:25:33.955Z info Starting tosu
+2025-11-29T23:25:33.957Z debug [config] No old config found. Skipping migration..
+2025-11-29T23:25:33.959Z debug [config] Started config watcher..
+2025-11-29T23:25:33.960Z info [updater],Checking updates
+2025-11-29T23:25:44.505Z error [updater],checkUpdates,fetch failed
+2025-11-29T23:25:44.506Z debug [updater],checkUpdates,TypeError: fetch failed
+2025-11-29T23:25:44.510Z info Searching for osu!
+2025-11-29T23:25:44.531Z debug stable,9948,gameplay init (undefined - undefined)
+2025-11-29T23:25:44.532Z debug stable,9948,resultScreen init
+2025-11-29T23:25:44.532Z info [9948 0] Running memory chimera...
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,settingsClassAddr: F0E59F0
+2025-11-29T23:25:47.632Z debug stable,9948,checkIsBasesValid,baseAddr: 1E3E05C7
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,bindingsAddr: 737734D
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,rulesetsAddr: 1E3B453F
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,canRunSlowlyAddr: 2E09040
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,configurationAddr: 75DFB15
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,statusPtr: 1E3B44B4
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,menuModsPtr: 1B7E2309
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,getAudioLengthPtr: 2E1FF27
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,userProfilePtr: 1B7E21D0
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,rawLoginStatusPtr: 2E1B57D
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,spectatingUserPtr: 2E0D304
+2025-11-29T23:25:47.634Z debug stable,9948,checkIsBasesValid,gameTimePtr: 1EDD5518
+2025-11-29T23:25:47.635Z info stable,9948,All patterns resolved within 3101.56ms
+2025-11-29T23:25:47.635Z debug stable,9948,regularDataLoop
+2025-11-29T23:25:47.646Z time [stable],9948,beatmapPP.updateMapMetadata,[9.13ms] Spend on opening beatmap
+2025-11-29T23:25:47.659Z time [stable],9948,beatmapPP.updateMapMetadata,[12.56ms] Spend on attributes & strains calculation
+2025-11-29T23:25:47.676Z time [stable],9948,beatmapPP.updateMapMetadata,[17.05ms] Spend on parsing beatmap
+2025-11-29T23:25:47.684Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-11-29T23:25:47.632Z debug stable,9948,checkIsBasesValid,playTimeAddr: 2E45E42
+2025-11-29T23:25:47.633Z debug stable,9948,checkIsBasesValid,skinDataAddr: 1E3B84CC
+2025-11-29T23:25:47.632Z debug stable,9948,checkIsBasesValid,chatCheckerPtr: 2E0EAAA
+2025-11-29T23:25:50.767Z debug [ws],connected,b7f3b4eb-4b46
+2025-11-29T23:29:05.924Z warn stable,9948,osu!.exe got destroyed

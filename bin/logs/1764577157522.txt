@@ -1,0 +1,32 @@
+2025-12-01T08:19:17.522Z info Starting tosu
+2025-12-01T08:19:17.525Z debug [config] No old config found. Skipping migration..
+2025-12-01T08:19:17.526Z debug [config] Started config watcher..
+2025-12-01T08:19:17.526Z info [updater],Checking updates
+2025-12-01T08:19:17.872Z info [updater],You're using latest version v4.15.3
+2025-12-01T08:19:17.879Z info Searching for osu!
+2025-12-01T08:19:17.887Z debug stable,25524,gameplay init (undefined - undefined)
+2025-12-01T08:19:17.887Z debug stable,25524,resultScreen init
+2025-12-01T08:19:17.888Z info [25524 0] Running memory chimera...
+2025-12-01T08:19:19.764Z debug stable,25524,checkIsBasesValid,baseAddr: 1E3201BF
+2025-12-01T08:19:19.764Z debug stable,25524,checkIsBasesValid,playTimeAddr: E9E969A
+2025-12-01T08:19:19.764Z debug stable,25524,checkIsBasesValid,skinDataAddr: 1E2E82CC
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,settingsClassAddr: 99D59F0
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,bindingsAddr: 72F66D5
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,rulesetsAddr: 1E2E433F
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,canRunSlowlyAddr: E8CD4A0
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,configurationAddr: 753DB65
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,statusPtr: 1E2E42B4
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,userProfilePtr: 4F214A0
+2025-12-01T08:19:19.764Z debug stable,25524,checkIsBasesValid,chatCheckerPtr: E9E216A
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,rawLoginStatusPtr: 193C6565
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,menuModsPtr: 4F215D9
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,getAudioLengthPtr: E9E382F
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,gameTimePtr: EA26C60
+2025-12-01T08:19:19.766Z info stable,25524,All patterns resolved within 1877.32ms
+2025-12-01T08:19:19.766Z debug stable,25524,regularDataLoop
+2025-12-01T08:19:19.773Z time [stable],25524,beatmapPP.updateMapMetadata,[2.94ms] Spend on opening beatmap
+2025-12-01T08:19:19.782Z time [stable],25524,beatmapPP.updateMapMetadata,[9.34ms] Spend on attributes & strains calculation
+2025-12-01T08:19:19.785Z time [stable],25524,beatmapPP.updateMapMetadata,[3.04ms] Spend on parsing beatmap
+2025-12-01T08:19:19.788Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-12-01T08:19:19.765Z debug stable,25524,checkIsBasesValid,spectatingUserPtr: E9E0ADC
+2025-12-01T08:19:20.419Z debug [ws],connected,8803ec98-549b

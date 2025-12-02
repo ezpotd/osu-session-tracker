@@ -1,0 +1,4 @@
+2025-11-29T03:54:43.431Z info Starting tosu
+2025-11-29T03:54:43.437Z info [updater],Checking updates
+2025-11-29T03:54:43.434Z debug [config] No old config found. Skipping migration..
+2025-11-29T03:54:43.436Z debug [config] Started config watcher..

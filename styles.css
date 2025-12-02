@@ -1,0 +1,169 @@
+/* RESET */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+
+/* ROOT */
+html, body { 
+    background-color: #1a1a2e; 
+    color: #e0e0e0; 
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden; 
+}
+
+/* APP CONTAINER */
+.app-container { 
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+    padding: 20px; 
+    overflow: hidden; 
+}
+
+/* HEADER */
+header { 
+    flex-shrink: 0; 
+    margin-bottom: 15px; 
+    background: #16213e; 
+    padding: 20px 20px 0 20px; 
+    border-radius: 8px 8px 0 0; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+}
+
+.title-block { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.flex-row { display: flex; align-items: center; gap: 10px; }
+h1 { color: #ff79c6; letter-spacing: 2px; font-weight: 800; font-size: 24px; }
+.app-logo { width: 30px; height: 30px; border-radius: 50%; }
+.badge { background: #2a2a40; padding: 5px 10px; border-radius: 12px; font-size: 12px; color: #8be9fd; }
+
+/* TABS */
+.nav-tabs { display: flex; gap: 20px; }
+.nav-btn {
+    background: transparent;
+    border: none;
+    color: #a0a0a0;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: #fff; }
+.nav-btn.active { color: #fff; border-bottom: 3px solid #ff79c6; }
+
+/* VIEW CONTAINER */
+.view-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;          
+    min-height: 0;    
+    overflow: hidden; 
+}
+
+/* CONTROLS */
+.controls { 
+    flex-shrink: 0; 
+    margin-bottom: 10px; 
+    padding-top: 5px; 
+}
+input[type="text"] { width: 100%; padding: 12px; background: #16213e; border: 1px solid #0f3460; color: white; border-radius: 6px; outline: none; }
+input[type="text"]:focus { border-color: #ff79c6; }
+
+/* TABLE WRAPPER */
+.table-wrapper { 
+    flex: 1 1 0;              
+    min-height: 0;        
+    overflow-y: scroll;       
+    background: #16213e; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); 
+    position: relative;     
+}
+
+table { width: 100%; border-collapse: collapse; min-width: 800px; }
+
+/* STICKY HEADER */
+thead { 
+    position: sticky; 
+    top: 0; 
+    background: #0f3460; 
+    z-index: 10; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+th { text-align: left; padding: 15px; color: #bd93f9; font-size: 13px; cursor: pointer; user-select: none; }
+th:hover { background: #1a1a2e; color: #fff; }
+td { padding: 8px 15px; border-bottom: 1px solid #1f2a40; font-size: 13px; vertical-align: middle; }
+tr:hover { background-color: #1f2a40; }
+
+/* PAGINATION BAR */
+.pagination-bar {
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #16213e;
+    padding: 10px;
+    border-top: 1px solid #0f3460;
+    border-radius: 0 0 8px 8px;
+}
+
+.pagination-bar button {
+    background: #2a2a40;
+    color: #fff;
+    border: 1px solid #0f3460;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pagination-bar button:hover { background: #0f3460; }
+.pagination-bar button:disabled { opacity: 0.5; cursor: default; }
+.page-info { font-size: 12px; color: #a0a0a0; } /* Changed ID to Class since we have two now */
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: #0f1524; }
+::-webkit-scrollbar-thumb { background: #44475a; border-radius: 6px; border: 3px solid #0f1524; }
+::-webkit-scrollbar-thumb:hover { background: #6272a4; }
+
+/* IMAGE THUMBNAIL */
+.bg-thumb {
+    width: 80px; height: 45px; object-fit: cover; border-radius: 6px;
+    border: 1px solid #44475a; transition: transform 0.2s; cursor: pointer;
+}
+.bg-thumb:hover {
+    transform: scale(2.5); z-index: 100; position: relative;
+    border-color: #ff79c6; box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* DELETE BUTTON */
+.btn-delete {
+    background: rgba(255, 85, 85, 0.15); border: 1px solid rgba(255, 85, 85, 0.3);
+    color: #ff5555; cursor: pointer; font-weight: bold; font-size: 14px; 
+    width: 24px; height: 24px; border-radius: 4px;
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: all 0.2s ease;
+}
+.btn-delete:hover { background: #ff5555; color: white; transform: scale(1.1); box-shadow: 0 0 8px rgba(255, 85, 85, 0.5); }
+.btn-delete:active { transform: scale(0.95); }
+
+/* --- COLUMN COLORS (Restored) --- */
+.col-img    { width: 90px; text-align: center; }
+.col-date   { color: #6272a4; font-size: 11px; }
+.col-map    { font-weight: 500; }
+.col-mapper { color: #8be9fd; }
+.col-mods   { font-weight: bold; color: #f1fa8c; letter-spacing: 1px; }
+.col-stat   { color: #bd93f9; } 
+.col-pp     { color: #ffb86c; }
+.col-time   { color: #50fa7b; }
+.col-ur     { color: #8be9fd; }
+.col-300    { color: #50fa7b; }
+.col-100    { color: #f1fa8c; }
+.col-50     { color: #ffb86c; }
+.col-miss   { color: #ff5555; }
+.col-sb     { color: #ff79c6; }
+td:last-child { text-align: center; width: 40px; }
+
+.status-Pass { color: #50fa7b; font-weight: bold; }
+.status-Fail { color: #ff5555; }
+.status-Quit { color: #f1fa8c; }

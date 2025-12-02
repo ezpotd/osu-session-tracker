@@ -1,0 +1,44 @@
+{
+  "name": "osu-session-tracker",
+  "version": "1.0.0",
+  "description": "Tracks and analyzes osu! plays in real-time.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "ezpotd",
+  "license": "MIT",
+  "build": {
+    "appId": "com.osutracker.app",
+    "asar": true,
+    "files": [
+      "**/*",
+      "node_modules/**/*",
+      "bin/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "app-icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "extraResources": [
+      {
+        "from": "bin",
+        "to": "bin",
+        "filter": ["**/*"]
+      }
+    ]
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.4.0",
+    "electron-reload": "^1.5.0"
+  }
+}

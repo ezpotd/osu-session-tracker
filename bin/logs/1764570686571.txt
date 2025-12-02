@@ -1,0 +1,590 @@
+2025-12-01T06:31:26.571Z info Starting tosu
+2025-12-01T06:31:26.574Z debug [config] No old config found. Skipping migration..
+2025-12-01T06:31:26.576Z debug [config] Started config watcher..
+2025-12-01T06:31:26.577Z info [updater],Checking updates
+2025-12-01T06:31:26.905Z info [updater],You're using latest version v4.15.3
+2025-12-01T06:31:26.912Z info Searching for osu!
+2025-12-01T06:31:26.934Z debug stable,25524,gameplay init (undefined - undefined)
+2025-12-01T06:31:26.934Z debug stable,25524,resultScreen init
+2025-12-01T06:31:26.935Z info [25524 0] Running memory chimera...
+2025-12-01T06:31:34.946Z debug stable,25524,checkIsBasesValid,baseAddr: 1E3201BF
+2025-12-01T06:31:34.948Z debug stable,25524,checkIsBasesValid,skinDataAddr: 1E2E82CC
+2025-12-01T06:31:34.947Z debug stable,25524,checkIsBasesValid,chatCheckerPtr: E9E216A
+2025-12-01T06:31:34.947Z debug stable,25524,checkIsBasesValid,playTimeAddr: E9E969A
+2025-12-01T06:31:34.949Z debug stable,25524,checkIsBasesValid,configurationAddr: 753DB65
+2025-12-01T06:31:34.949Z debug stable,25524,checkIsBasesValid,bindingsAddr: 72F66D5
+2025-12-01T06:31:34.948Z debug stable,25524,checkIsBasesValid,settingsClassAddr: 99D59F0
+2025-12-01T06:31:34.949Z debug stable,25524,checkIsBasesValid,rulesetsAddr: 1E2E433F
+2025-12-01T06:31:34.950Z debug stable,25524,checkIsBasesValid,canRunSlowlyAddr: E8CD4A0
+2025-12-01T06:31:34.951Z debug stable,25524,checkIsBasesValid,getAudioLengthPtr: E9E382F
+2025-12-01T06:31:34.951Z debug stable,25524,checkIsBasesValid,menuModsPtr: 4F215D9
+2025-12-01T06:31:34.950Z debug stable,25524,checkIsBasesValid,statusPtr: 1E2E42B4
+2025-12-01T06:31:34.952Z debug stable,25524,checkIsBasesValid,rawLoginStatusPtr: 193C6565
+2025-12-01T06:31:34.953Z debug stable,25524,checkIsBasesValid,spectatingUserPtr: E9E0ADC
+2025-12-01T06:31:34.956Z debug stable,25524,regularDataLoop
+2025-12-01T06:31:34.985Z time [stable],25524,beatmapPP.updateMapMetadata,[14.81ms] Spend on opening beatmap
+2025-12-01T06:31:34.953Z debug stable,25524,checkIsBasesValid,gameTimePtr: EA26C60
+2025-12-01T06:31:35.037Z time [stable],25524,beatmapPP.updateMapMetadata,[12.30ms] Spend on parsing beatmap
+2025-12-01T06:31:34.952Z debug stable,25524,checkIsBasesValid,userProfilePtr: 4F214A0
+2025-12-01T06:31:35.024Z time [stable],25524,beatmapPP.updateMapMetadata,[39.56ms] Spend on attributes & strains calculation
+2025-12-01T06:31:35.054Z info [server],Dashboard started on http://127.0.0.1:24050
+2025-12-01T06:31:34.955Z info stable,25524,All patterns resolved within 8018.28ms
+2025-12-01T06:31:35.465Z time [stable],25524,beatmapPP.updateMapMetadata,[2.37ms] Spend on opening beatmap
+2025-12-01T06:31:35.470Z time [stable],25524,beatmapPP.updateMapMetadata,[4.51ms] Spend on attributes & strains calculation
+2025-12-01T06:31:35.476Z time [stable],25524,beatmapPP.updateMapMetadata,[6.20ms] Spend on parsing beatmap
+2025-12-01T06:31:35.480Z debug stable,25524,gameplay updateState,hpBar is zero
+2025-12-01T06:31:35.587Z debug stable,25524,gameplay init (true - undefined)
+2025-12-01T06:31:35.588Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:35.708Z time [stable],25524,beatmapPP.updateMapMetadata,[2.57ms] Spend on opening beatmap
+2025-12-01T06:31:35.713Z time [stable],25524,beatmapPP.updateMapMetadata,[5.03ms] Spend on attributes & strains calculation
+2025-12-01T06:31:35.725Z time [stable],25524,beatmapPP.updateMapMetadata,[11.98ms] Spend on parsing beatmap
+2025-12-01T06:31:35.730Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:35.836Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:35.945Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.077Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.185Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.291Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.399Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.507Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.613Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.722Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.830Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:36.937Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.047Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.153Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.259Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.367Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.480Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.588Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.696Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.802Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:37.908Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.015Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.126Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.233Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.341Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.446Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.553Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.659Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.765Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.872Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:38.983Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:39.090Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:39.094Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.105Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.116Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.148Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.159Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.170Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.180Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.191Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.202Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.214Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.225Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.235Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.247Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.258Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.268Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.279Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.289Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.301Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.311Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.322Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.335Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.347Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.359Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.370Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.381Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.394Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.405Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.416Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.427Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.437Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.444Z debug [ws],connected,c8f25e70-a6c5
+2025-12-01T06:31:39.447Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.470Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.482Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.458Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.492Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.503Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.517Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.527Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.540Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.551Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.561Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.574Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.584Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.596Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.611Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.622Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.632Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.644Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.655Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.666Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.678Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.690Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.702Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.712Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.727Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.738Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.749Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.759Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.770Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.780Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.791Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.802Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.814Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.825Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.837Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.848Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.858Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.868Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.878Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.890Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.901Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.914Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.925Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.938Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.951Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.962Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.974Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.984Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:39.995Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.007Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.019Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.031Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.042Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.054Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.064Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.075Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.087Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.098Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.109Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.119Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.130Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.144Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.171Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.181Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.193Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.204Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.216Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.226Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.236Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.248Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.258Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.268Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.280Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.290Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.300Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.310Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.320Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.330Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.341Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.353Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.365Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.377Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.387Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.398Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.410Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.423Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.434Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.444Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.460Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.471Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.481Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.494Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.505Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.516Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.528Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.541Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.552Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.565Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.575Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.587Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.599Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.609Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.620Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.631Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.642Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.653Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.668Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.678Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.689Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.699Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.710Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.720Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.731Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.741Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.752Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.764Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.776Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.788Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.800Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.811Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.821Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.834Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.844Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.856Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.866Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.875Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.00 | currentPP -> 0.01 | stars -> 0.44
+2025-12-01T06:31:40.877Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.888Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.898Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.909Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.919Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.929Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.940Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.950Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.960Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.970Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.981Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:40.991Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.001Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.014Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.025Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.035Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.045Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.056Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.066Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.077Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.087Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.097Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.109Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.119Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.132Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.143Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.155Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.168Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.195Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.200Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.01 | currentPP -> 0.04 | stars -> 0.67
+2025-12-01T06:31:41.207Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.217Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.227Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.238Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.249Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.259Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.270Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.280Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.294Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.308Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.318Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.329Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.340Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.350Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.360Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.371Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.382Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.394Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.405Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.416Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.426Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.438Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.448Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.460Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.471Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.481Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.492Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.502Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.512Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.04 | currentPP -> 0.03 | stars -> 0.75
+2025-12-01T06:31:41.515Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.526Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.537Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.550Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.561Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.574Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.584Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.595Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.606Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.619Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.631Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.642Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.654Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.666Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.677Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.688Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.700Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.712Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.723Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.733Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.746Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.757Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.768Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.778Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.789Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.800Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.811Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.823Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.04 | currentPP -> 0.06 | stars -> 0.97
+2025-12-01T06:31:41.827Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.837Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.849Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.860Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.871Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.882Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.892Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.902Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.913Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.923Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.934Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.944Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.959Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.969Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.980Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:41.990Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.000Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.010Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.022Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.035Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.047Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.058Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.070Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.080Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.091Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.102Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.112Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.123Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.137Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.148Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.159Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.171Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.183Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.193Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.220Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.231Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.240Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.06 | currentPP -> 0.10 | stars -> 1.13
+2025-12-01T06:31:42.243Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.254Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.264Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.275Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.286Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.298Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.310Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.322Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.334Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.347Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.357Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.367Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.377Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.388Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.398Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.409Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.419Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.430Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.442Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.452Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.463Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.474Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.484Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.494Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.504Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.515Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.526Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.537Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.548Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.553Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.10 | currentPP -> 0.16 | stars -> 1.32
+2025-12-01T06:31:42.560Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.571Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.582Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.593Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.603Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.615Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.626Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.636Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.648Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.661Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.672Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.685Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.695Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.706Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.718Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.731Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.744Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.754Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.767Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.778Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.789Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.804Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.814Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.825Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.836Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.849Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.859Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.871Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.881Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.894Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.904Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.915Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.927Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.937Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.949Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.962Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.974Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.16 | currentPP -> 0.20 | stars -> 1.47
+2025-12-01T06:31:42.977Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:42.989Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.003Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.013Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.023Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.033Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.044Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.056Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.067Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.083Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.094Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.104Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.114Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.126Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.136Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.148Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.161Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.172Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.186Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.197Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.209Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.246Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.257Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.268Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.280Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.291Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.302Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.315Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.325Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.336Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.347Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.359Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.370Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.380Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.391Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.20 | currentPP -> 0.26 | stars -> 1.64
+2025-12-01T06:31:43.393Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.404Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.416Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.426Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.438Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.448Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.459Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.470Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.480Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.491Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.501Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.512Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.525Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.535Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.547Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.578Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.557Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.567Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.589Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.601Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.611Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.622Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.633Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.644Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.655Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.665Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.676Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.689Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.707Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.720Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.731Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.743Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.755Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.769Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.783Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.793Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.805Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.818Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.828Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.838Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.848Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.859Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.871Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.884Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.894Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.906Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.917Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.928Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.939Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.950Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.960Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.970Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.980Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:43.991Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.002Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.018Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.029Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.040Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.050Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.060Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.072Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.084Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.094Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.105Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.115Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.128Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.139Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.150Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.161Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.171Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.182Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.193Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.206Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.216Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.228Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.239Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.271Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.282Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.294Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.304Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.314Z debug stable,25524,gameplay updateKeyOverlay,keyOverlayPtr is zero [0] (712079804  -  506348351)
+2025-12-01T06:31:44.324Z debug stable,25524,gameplay updateKeyOverlay,rulesetAddr is zero
+2025-12-01T06:31:44.324Z debug stable,25524,gameplay updateHitErrors,RulesetAddr is 0
+2025-12-01T06:31:44.328Z debug stable,25524,gameplay init (undefined - 4,5)
+2025-12-01T06:31:44.328Z debug stable,25524,resultScreen init
+2025-12-01T06:31:51.252Z time [stable],25524,beatmapPP.updateMapMetadata,[2.44ms] Spend on opening beatmap
+2025-12-01T06:31:51.255Z time [stable],25524,beatmapPP.updateMapMetadata,[3.81ms] Spend on attributes & strains calculation
+2025-12-01T06:31:51.264Z time [stable],25524,beatmapPP.updateMapMetadata,[8.33ms] Spend on parsing beatmap
+2025-12-01T06:31:52.513Z time [stable],25524,resultScreen.updatePerformance,pp:1.82,fc pp:0.35
+2025-12-01T06:31:53.347Z time [stable],25524,beatmapPP.updateMapMetadata,[2.70ms] Spend on opening beatmap
+2025-12-01T06:31:53.350Z time [stable],25524,beatmapPP.updateMapMetadata,[3.08ms] Spend on attributes & strains calculation
+2025-12-01T06:31:53.355Z time [stable],25524,beatmapPP.updateMapMetadata,[5.81ms] Spend on parsing beatmap
+2025-12-01T06:31:53.359Z debug stable,25524,gameplay init (true - undefined)
+2025-12-01T06:31:53.359Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:53.360Z debug stable,25524,gameplay updateState,hpBar is zero
+2025-12-01T06:31:53.487Z debug stable,25524,gameplay init (true - undefined)
+2025-12-01T06:31:53.488Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:53.598Z time [stable],25524,beatmapPP.updateMapMetadata,[2.55ms] Spend on opening beatmap
+2025-12-01T06:31:53.601Z time [stable],25524,beatmapPP.updateMapMetadata,[3.63ms] Spend on attributes & strains calculation
+2025-12-01T06:31:53.610Z time [stable],25524,beatmapPP.updateMapMetadata,[9.29ms] Spend on parsing beatmap
+2025-12-01T06:31:53.614Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:53.720Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:53.827Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:53.932Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.039Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.149Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.257Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.363Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.471Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.578Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.687Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.793Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:54.900Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:55.007Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:55.113Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:55.220Z debug stable,25524,gameplay resetQuick
+2025-12-01T06:31:55.247Z debug stable,25524,gameplay updateKeyOverlay,0:1:0:0
+2025-12-01T06:31:55.327Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 0.00 | currentPP -> 11.77 | stars -> 0.14
+2025-12-01T06:31:55.969Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 11.77 | currentPP -> 14.50 | stars -> 0.22
+2025-12-01T06:31:55.974Z debug stable,25524,gameplay updateKeyOverlay,0:2:0:0
+2025-12-01T06:31:56.705Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 14.50 | currentPP -> 0.04 | stars -> 0.30
+2025-12-01T06:31:56.708Z debug stable,25524,gameplay updateKeyOverlay,0:3:0:0
+2025-12-01T06:31:57.016Z debug stable,25524,gameplay updateKeyOverlay,0:4:0:0
+2025-12-01T06:31:57.024Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 14.50 | currentPP -> 0.24 | stars -> 0.50
+2025-12-01T06:31:57.250Z debug stable,25524,gameplay updateKeyOverlay,0:5:0:0
+2025-12-01T06:31:57.339Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 14.50 | currentPP -> 0.74 | stars -> 0.76
+2025-12-01T06:31:57.386Z debug stable,25524,gameplay updateKeyOverlay,0:6:0:0
+2025-12-01T06:31:57.654Z debug stable,25524,beatmapPP updateCurrentAttributes,maxAchieved -> 14.50 | currentPP -> 0.78 | stars -> 0.82
+2025-12-01T06:31:57.742Z debug stable,25524,gameplay updateKeyOverlay,0:7:0:0
+2025-12-01T06:31:57.822Z debug stable,25524,gameplay updateKeyOverlay,0:7:1:0
+2025-12-01T06:31:58.064Z debug stable,25524,gameplay updateKeyOverlay,rulesetAddr is zero
+2025-12-01T06:31:58.065Z debug stable,25524,gameplay updateHitErrors,RulesetAddr is 0
+2025-12-01T06:31:58.076Z debug stable,25524,gameplay init (undefined - 4,5)
+2025-12-01T06:31:58.077Z debug stable,25524,resultScreen init
+2025-12-01T06:31:58.078Z debug stable,25524,gameplay resetKeyOverlay
